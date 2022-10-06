@@ -32,6 +32,13 @@ public:
 		radius = r;
 		length = l;
 	}
+	void Print() {
+		cout << radius << " " << length << endl;
+	}
+	void Input(double r, double l) {
+		radius = r;
+		length = l;
+	}
 };
 class CircleInRectangle:public Rectangle, public Circle {
 public:
